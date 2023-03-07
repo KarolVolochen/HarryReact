@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Tilt+Neon&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+
+
+.fotos-extra-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fotos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.trio {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: "Montserrat";
+    transition: .5s;
+}
+
+.trio:hover {
+    transform: scale(1.1);
+}
+
+.banner-1 {
+    background-image: url('https://www.exibidor.com.br/fotos/noticias/notundefined_1637610821.jpg');
+}
+
+.banner-2 {
+    background-image: url('http://d20inc.com.br/wp-content/uploads/2018/10/Zakaz-sprzedazy-rozdzek-fanom-Harry-ego-Pottera-1024x436.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://irmaosestoicos.com/wp-content/uploads/2021/06/8eae1b6e8d8a52bfb243daeca3bc1de0.jpeg');
+}
+
+.banner-4 {
+    background-image: url('https://i0.wp.com/geekpopnews.com.br/wp-content/uploads/2022/10/Varinha-Rubeo-Hagrid.jpg?resize=600%2C400&ssl=1');
+}
+
+@media(max-width: 768px) {
+
+    .fotos-content {
+        grid-template-columns: 1fr;
+    }
+}

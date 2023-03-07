@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Tilt+Neon&display=swap');
+
+#banner {
+    background-image: url('https://anotabahia.com/wp-content/uploads/2021/11/anotabahia-harry-potter-e-a-pedra-filosofal-3d-vai-estrear-nos-cinemas-de-salvador-captura-de-tela-2021-11-17-as-15.11.39.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+
+}
+
+.description {
+    color: #ffff;
+    font-size: 16px;
+    font-family: Montserrat;
+    width: 70%;
+    background-color: black;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #1a53ff;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #ffff;
+    color: #1a53ff;
+}
+
+@media(max-width: 768px) {
+
+
+    #Banner {
+        background-position: 50%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .Sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}

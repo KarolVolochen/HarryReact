@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Tilt+Neon&display=swap');
+
+.todos-comentarios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    font-family: Montserrat;
+   
+
+}
+
+.comentarios-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.comentario {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    padding: 2px;
+    
+    
+}
+
+
+.teste {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: Montserrat;
+}
+    
+    
+    
+    .opiniao {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: Montserrat;
+    font-size: 16px;
+    
+}
+
+p {
+    background-color: white;
+    font-family: Montserrat;
+}
+
+.comentario2 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    padding: 2px;
+    
+}
+
+
+.teste2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: Montserrat;
+}
+
+.comentario3 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    padding: 2px;
+    
+}
+
+
+.teste3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: Montserrat;
+}
+
+@media(max-width: 768px) {
+
+    .comentarios-content {
+        display: grid;
+        grid-template-columns: 1fr;
+      
+
+}}

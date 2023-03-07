@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Tilt+Neon&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.card-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: Montserrat;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.daniel {
+    background-image: url('https://4.bp.blogspot.com/-p6o5nZmqamo/WcWB6Y8IR4I/AAAAAAAAwQ0/cS4M-kpxBIk5hxPH_lz_H9BaeCdkO9x7gCLcBGAs/s1600/Snitch_WB_F1_HarryPotterHoldingTheSnitch_Still_100615_Land.jpg');
+}
+
+.emma {
+    background-image: url('https://s.yimg.com/ny/api/res/1.2/FGBqpTubxYzxLldbDokr3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTk2MA--/https://media.zenfs.com/en-US/homerun/time_72/5e0067c1f7af3eff27b90f90ecb85b3d');
+}
+
+.rupert {
+    background-image: url('https://2.bp.blogspot.com/-dlPAJc_dqfw/Vrdlo3Gf2aI/AAAAAAAABwI/8TJTulSA9SE/s320/Rupert%2BGrint%2Bem%2Ba%2BPedra%2BFilosofal.jpg');
+}
+
+
+
+
+@media(max-width: 768px) {
+ 
+.card-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+}
+}

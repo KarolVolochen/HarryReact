@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Tilt+Neon&display=swap');
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    font-family: Montserrat;
+}
+
+li:hover {
+    color:   #1a53ff;
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+}
+
+
+@media(max-width: 768px) {
+
+    nav {
+    display: none;
+}
+}
